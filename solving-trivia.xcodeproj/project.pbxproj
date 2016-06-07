@@ -11,6 +11,7 @@
 		4119FCA523E97339CD0C8C0A /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC87EE100C82D05B7A7C5DA /* libPods-unit_tests.a */; };
 		56360577974143E4B1C04611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18FCBBA95B948D3989B3220 /* Foundation.framework */; };
 		749BBE7D305B4E29B4F3A991 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 287369C61970455F92CDE01C /* FISAppDelegate.m */; };
+		C9515A801D076B350084838B /* StatesAndCapitals.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9515A7F1D076B350084838B /* StatesAndCapitals.txt */; };
 		E2D592C01B011E7000479820 /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D592BE1B011E7000479820 /* FISAppDelegateSpec.m */; };
 		EA8128672C78484E92656646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F97384977A4C9488E4971D /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		57F97384977A4C9488E4971D /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		619C3910C20E4B3C8578BEDA /* solving-trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "solving-trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7223F7D1CB2BA80D3B8AA8B4 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
+		C9515A7F1D076B350084838B /* StatesAndCapitals.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StatesAndCapitals.txt; sourceTree = "<group>"; };
 		DDC87EE100C82D05B7A7C5DA /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18FCBBA95B948D3989B3220 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E221394682D9D2035025FAEA /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		A4A4B55E8785426086A9748C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C9515A7F1D076B350084838B /* StatesAndCapitals.txt */,
 				57F97384977A4C9488E4971D /* Images.xcassets */,
 				00D6142E000A4D938BD4BF80 /* Other-Sources */,
 			);
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8128672C78484E92656646 /* Images.xcassets in Resources */,
+				C9515A801D076B350084838B /* StatesAndCapitals.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
